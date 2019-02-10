@@ -1,9 +1,10 @@
 ================================================
 
 Celebrul joc "Spanzuratoarea"
- 
+
 Limbaj folosit: Java
-IDE folosit   : INTELLIJ    
+IDE folosit   : INTELLIJ
+Clasele se gasesc in folderul Spanzuratoarea -> src
 ================================================
 
 ::::::::::::Componentele aplicatiei:::::::::::::
@@ -16,7 +17,7 @@ IDE folosit   : INTELLIJ
 
 
 
-:: Clasa Game :: 
+:: Clasa Game ::
 
 -> este clasa in care se realizeaza logica jocului.
 
@@ -39,9 +40,9 @@ _____metodele clasei_______________
 -> metoda "play()" realizeaza cu ajutorul unui while(this.gameover) citirea repetata de la tastatura a literei si apeleaza metoda "gasesteLitera(char c)". Daca litera nu se regaseste in cuvant, se incrmeenteaza variabila mistake si se
 	redeseneaza Spanzuratoarea. Daca jucatorul face mai mult de 6 greseli, atunci jocul se intrerupe si se afiseaza pe ecran mesajul "Sorry! You have lost this game". Daca jucatorul a gasit toate literele din cuvant, adica copy si
 	word sunt egale dpdv al literelor, atunci inseamna ca jucatorul a castigat, o sa se iasa din loop si o sa se afiseze mesajul "You won! Congrats".
- 
 
 
-:: Clasa Main :: 
+
+:: Clasa Main ::
 
 -> este clasa in care jocul se initializeaza Game game1 = new Game();   game1.play();
